@@ -26,4 +26,5 @@ console.log(aprovado[2])
 
 aprovado = ['Bia', 'Carlos', 'Ana']
 aprovado.splice(1, 1)
+
 console.log(aprovado)
