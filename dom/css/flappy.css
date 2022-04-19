@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: 'pixel';
-    src: url('../font/pixel.ttf');
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
 }
 
 [wm-flappy] {
@@ -21,7 +21,6 @@
     position: absolute;
     width: 60px;
     left: calc(50% - 30px);
-    bottom: 50%;
 }
 
 .par-de-barreiras {
@@ -55,8 +54,10 @@
 }
 
 .progresso {
+    position: absolute;
     top: 10px;
     right: 10px;
-    font-family: 'pixel';
-    font-size: 100px;
+    font-family: Pixel;
+    font-size: 70px;
+    z-index: 100;
 }
