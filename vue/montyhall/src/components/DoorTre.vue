@@ -14,7 +14,6 @@
 
 <script>
 import GiftPresent from './GiftPresent.vue'
-
 export default {
   name: 'DoorTre',
   components: { GiftPresent },
@@ -36,7 +35,6 @@ export default {
   --door-border: 5px solid brown;
   --selectes-border: 5px solid yellow;
 }
-
 .door-area{ 
   position: relative;
   width: 200px;
@@ -48,7 +46,6 @@ export default {
   display: flex;
   justify-content: center;
 }
-
 .door-frame{
   position: absolute;
   height: 300px;
