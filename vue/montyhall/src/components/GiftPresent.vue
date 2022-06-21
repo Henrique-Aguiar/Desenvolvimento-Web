@@ -21,7 +21,6 @@ export default {
   align-items: center;
   z-index: 10;
 }
-
 .gift-top{
   width: 100px;
   height: 25px;
@@ -33,7 +32,6 @@ export default {
   height: 60px;
   background-color: #5c7e32;
 }
-
 .gift-tie-1{
   position: absolute;
   bottom: 0;
