@@ -1,15 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
+import { App } from './App'
 
-import Pai from './componentes/Pai'
-import Filho from './componentes/Filho'
 
-ReactDOM.render(
-    <div>
-        <Pai nome="Paulo" sobrenome="Silva">
-          <Filho nome="Pedro" />
-          <Filho nome="Paulo" />
-          <Filho nome="Maria"/>
-        </Pai>
-    </div>
-, document.getElementById('root'))
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
