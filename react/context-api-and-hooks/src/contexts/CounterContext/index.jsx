@@ -22,7 +22,7 @@ export const useCounterContext = () => {
   const context = useContext(context);
 
   if (!context) {
-    throw new Error('You have to use useContext inside <>');
+    throw new Error('You have to use useContext inside <CounterContextProvider>');
   }
 
   return [...context];
