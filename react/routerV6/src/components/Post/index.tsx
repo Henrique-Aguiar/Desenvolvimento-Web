@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { Outlet, useParams, useSearchParams } from 'react-router-dom'
 
 export const Post = () => {
     const params = useParams()
@@ -8,6 +8,7 @@ export const Post = () => {
     return (
         <div>
             <h1>Post {`param: ${id} QS: ${qs.get('segunda')}`}</h1>
+            <Outlet />
         </div>
     )
 }
